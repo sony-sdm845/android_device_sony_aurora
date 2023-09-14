@@ -13,7 +13,7 @@ DEVICE_PATH := device/sony/aurora
 TARGET_SCREEN_DENSITY := 420
 
 # Kernel
-TARGET_KERNEL_CONFIG := tama_aurora_defconfig
+TARGET_KERNEL_CONFIG := vendor/tama_aurora_defconfig
 
 # HIDL
 DEVICE_MANIFEST_FILE += $(DEVICE_PATH)/manifest.xml
